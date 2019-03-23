@@ -1,0 +1,10 @@
+{
+  "name": "javascript-webpack-uses-esm-modules-without-main-fields-in-package-json-demo--module1",
+  "version": "0.1.8",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "1.7.0"
+  }
+}

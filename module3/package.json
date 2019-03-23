@@ -1,0 +1,16 @@
+{
+  "name": "javascript-webpack-uses-esm-modules-without-main-fields-in-package-json-demo--module3",
+  "version": "0.2.6",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "main": "dist/bundle.cjs.js",
+  "module": "dist/bundle.esm.js",
+  "devDependencies": {
+    "javascript-webpack-uses-esm-modules-without-main-fields-in-package-json-demo--module2": "0.2.5",
+    "rollup": "1.7.0"
+  },
+  "peerDependencies": {
+    "javascript-webpack-uses-esm-modules-without-main-fields-in-package-json-demo--module2": "0.2.5"
+  }
+}

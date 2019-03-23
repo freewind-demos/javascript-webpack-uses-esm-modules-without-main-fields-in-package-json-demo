@@ -4,8 +4,9 @@
     "ts": "webpack --display-modules=true --config ts-webpack.config.js && node dist/bundle-ts.js"
   },
   "dependencies": {
-    "typescript-webpack-uses-esm-modules-demo--module1": "0.1.0",
-    "typescript-webpack-uses-esm-modules-demo--module2": "0.1.0",
+    "javascript-webpack-uses-esm-modules-without-main-fields-in-package-json-demo--module1": "0.1.8",
+    "javascript-webpack-uses-esm-modules-without-main-fields-in-package-json-demo--module2": "0.2.5",
+    "javascript-webpack-uses-esm-modules-without-main-fields-in-package-json-demo--module3": "0.2.6",
     "ts-loader": "5.3.3"
   },
   "devDependencies": {

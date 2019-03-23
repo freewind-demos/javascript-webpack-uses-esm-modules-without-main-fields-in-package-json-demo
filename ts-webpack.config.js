@@ -6,7 +6,8 @@ module.exports = {
     filename: 'dist/bundle-ts.js'
   },
   resolve: {
-    extensions: ['.ts', '.js']
+    extensions: ['.ts', '.js'],
+    mainFields: ['module']
   },
   module: {
     rules: [{
